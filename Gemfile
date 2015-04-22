@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem 'sinatra'
+gem 'json'
 
 group :development, :test do
   gem "heroku_hatchet"
@@ -8,6 +9,7 @@ group :development, :test do
   gem "rspec-expectations"
   gem "excon"
   gem "rake"
+  gem "tux"
   gem "parallel_tests"
   gem 'rspec-retry'
   gem "netrc"
